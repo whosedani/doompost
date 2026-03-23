@@ -131,15 +131,6 @@ body::before {
   display: block;
 }
 
-.tagline {
-  font-family: 'Anybody', sans-serif;
-  font-size: clamp(18px, 3.5vw, 28px);
-  color: var(--ash);
-  margin-top: 24px;
-  text-align: center;
-  font-weight: 400;
-}
-
 /* ── DoomPost block ── */
 .doom-block {
   width: 100%;
