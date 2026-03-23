@@ -82,8 +82,7 @@ reasonCard.addEventListener('click', randomReason);
 // DoomPost button → Twitter intent
 doomBtn.addEventListener('click', () => {
   const text = `${currentReason}. i'm done. $DOOMPOST`;
-  const url = siteUrl || window.location.href;
-  const intent = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+  const intent = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
   window.open(intent, '_blank');
 });
 
